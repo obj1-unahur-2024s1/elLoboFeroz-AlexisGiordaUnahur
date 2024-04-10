@@ -40,9 +40,7 @@ object caperucitaRoja{
 	
 	var peso = 60 + canasta.cuantoPesa()
 	
-	method cuantoPesa(){
-		return peso
-	}
+	method cuantoPesa() = peso
 
 }
 
